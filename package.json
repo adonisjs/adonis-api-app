@@ -23,5 +23,11 @@
     "@adonisjs/framework": "^4.0.8",
     "@adonisjs/ignitor": "^1.0.6",
     "@adonisjs/lucid": "^4.0.12"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": ["use", "make"]
   }
 }
