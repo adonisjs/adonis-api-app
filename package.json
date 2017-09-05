@@ -1,7 +1,7 @@
 {
-  "name": "adonis-slim-app",
+  "name": "adonis-api-app",
   "version": "4.0.0",
-  "description": "Smallest possible application for adonisjs",
+  "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
