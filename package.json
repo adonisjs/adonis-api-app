@@ -32,5 +32,8 @@
       "use",
       "make"
     ]
+  },
+  "autoload": {
+    "App": "./app"
   }
 }
