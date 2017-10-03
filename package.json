@@ -1,5 +1,5 @@
 {
-  "name": "adonis-slim-app",
+  "name": "adonis-api-app",
   "version": "4.0.0",
   "description": "Smallest possible application for adonisjs",
   "main": "index.js",
