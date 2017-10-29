@@ -24,15 +24,7 @@
     "@adonisjs/ignitor": "^1.0.12",
     "@adonisjs/lucid": "^4.0.20"
   },
-  "devDependencies": {
-    "standard": "^10.0.3"
-  },
-  "standard": {
-    "globals": [
-      "use",
-      "make"
-    ]
-  },
+  "devDependencies": {},
   "autoload": {
     "App": "./app"
   }
