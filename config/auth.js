@@ -1,5 +1,7 @@
 'use strict'
 
+const Config = use('Config')
+
 module.exports = {
   /*
   |--------------------------------------------------------------------------
@@ -69,7 +71,7 @@ module.exports = {
     uid: 'email',
     password: 'password',
     options: {
-      secret: 'self::app.appKey'
+      secret: Config.get('app.appKey')
     }
   }
 }
