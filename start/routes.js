@@ -15,6 +15,15 @@
 
 const Route = use('Route')
 
-Route.get('/', ({ request }) => {
-  return { greeting: 'Hello world in JSON' }
-})
+Route
+  .post('/auth', 'AuthController.login')
+
+
+
+Route
+  .group(() => {
+    Route
+      .get('me', 'AuthController.me')
+  })
+  .prefix('/api/v1')
+  .middleware(['auth:jwt'])
