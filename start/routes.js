@@ -15,6 +15,6 @@
 
 const Route = use('Route')
 
-Route.get('/', ({ request }) => {
+Route.get('/', () => {
   return { greeting: 'Hello world in JSON' }
 })
