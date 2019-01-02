@@ -23,7 +23,7 @@ module.exports = {
   | Sqlite
   |--------------------------------------------------------------------------
   |
-  | Sqlite is a flat file database and can be good choice under development
+  | Sqlite is a flat file database and can be a good choice for a development
   | environment.
   |
   | npm i --save sqlite3
