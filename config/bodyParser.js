@@ -6,8 +6,8 @@ module.exports = {
   | JSON Parser
   |--------------------------------------------------------------------------
   |
-  | Below settings are applied when request body contains JSON payload. If
-  | you want body parser to ignore JSON payload, then simply set `types`
+  | Below settings are applied when the request body contains a JSON payload.
+  | If you want body parser to ignore JSON payloads, then simply set `types`
   | to an empty array.
   */
   json: {
@@ -27,7 +27,7 @@ module.exports = {
     | strict
     |--------------------------------------------------------------------------
     |
-    | When `scrict` is set to true, body parser will only parse Arrays and
+    | When `strict` is set to true, body parser will only parse Arrays and
     | Object. Otherwise everything parseable by `JSON.parse` is parsed.
     |
     */

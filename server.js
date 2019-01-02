@@ -5,7 +5,7 @@
 | Http server
 |--------------------------------------------------------------------------
 |
-| This file bootstrap Adonisjs to start the HTTP server. You are free to
+| This file bootstraps Adonisjs to start the HTTP server. You are free to
 | customize the process of booting the http server.
 |
 | """ Loading ace commands """
@@ -14,7 +14,7 @@
 |
 | """ Preloading files """
 |     Also you can preload files by calling `preLoad('path/to/file')` method.
-|     Make sure to pass relative path from the project root.
+|     Make sure to pass a relative path from the project root.
 */
 
 const { Ignitor } = require('@adonisjs/ignitor')

@@ -10,7 +10,7 @@ module.exports = {
   |
   | Boolean: true - Allow current request origin
   | Boolean: false - Disallow all
-  | String - Comma seperated list of allowed origins
+  | String - Comma separated list of allowed origins
   | Array - An array of allowed origins
   | String: * - A wildcard to allow current request origin
   | Function - Receives the current origin and should return one of the above values.
@@ -25,7 +25,7 @@ module.exports = {
   |
   | HTTP methods to be allowed. The value can be one of the following
   |
-  | String - Comma seperated list of allowed methods
+  | String - Comma separated list of allowed methods
   | Array - An array of allowed methods
   |
   */
@@ -37,11 +37,11 @@ module.exports = {
   |--------------------------------------------------------------------------
   |
   | List of headers to be allowed via Access-Control-Request-Headers header.
-  | The value can be on of the following.
+  | The value can be one of the following.
   |
   | Boolean: true - Allow current request headers
   | Boolean: false - Disallow all
-  | String - Comma seperated list of allowed headers
+  | String - Comma separated list of allowed headers
   | Array - An array of allowed headers
   | String: * - A wildcard to allow current request headers
   | Function - Receives the current header and should return one of the above values.
@@ -55,10 +55,10 @@ module.exports = {
   |--------------------------------------------------------------------------
   |
   | A list of headers to be exposed via `Access-Control-Expose-Headers`
-  | header. The value can be on of the following.
+  | header. The value can be one of the following.
   |
   | Boolean: false - Disallow all
-  | String: Comma seperated list of allowed headers
+  | String: Comma separated list of allowed headers
   | Array - An array of allowed headers
   |
   */

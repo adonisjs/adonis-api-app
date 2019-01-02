@@ -24,7 +24,7 @@ module.exports = {
   |--------------------------------------------------------------------------
   |
   | App key is a randomly generated 16 or 32 characters long string required
-  | to encrypted cookies, sessions and other sensitive data.
+  | to encrypt cookies, sessions and other sensitive data.
   |
   */
   appKey: Env.getOrFail('APP_KEY'),
@@ -48,7 +48,7 @@ module.exports = {
     | Trust Proxy
     |--------------------------------------------------------------------------
     |
-    | Trust proxy defines whether X-Forwaded-* headers should be trusted or not.
+    | Trust proxy defines whether X-Forwarded-* headers should be trusted or not.
     | When your application is behind a proxy server like nginx, these values
     | are set automatically and should be trusted. Apart from setting it
     | to true or false Adonis supports handful or ways to allow proxy
@@ -231,7 +231,7 @@ module.exports = {
   |
   | The following cookie options are generic settings used by AdonisJs to create
   | cookies. However, some parts of the application like `sessions` can have
-  | seperate settings for cookies inside `config/session.js`.
+  | separate settings for cookies inside `config/session.js`.
   |
   */
   cookie: {
